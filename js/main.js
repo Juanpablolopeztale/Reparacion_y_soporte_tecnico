@@ -1,5 +1,6 @@
 // Datos
 import { data } from "./data.js"
+import { caja_descripciom } from "./descripcion.js"
 
 console.log(data)
 
@@ -24,5 +25,17 @@ main_Dom.appendChild(item);
     
 });
 
+//Ver detalles del prodcuto
+
+function saludar(){
+    let caja_descripcion_DOM = document.querySelector(".descripcion del producto")
+    
+}
+
+let productos = document.querySelectorAll(".tem")
+
+productos.forEach(cada_item => {
+    cada_elemento.addEventListener("click", saludar)
+});
 
 
