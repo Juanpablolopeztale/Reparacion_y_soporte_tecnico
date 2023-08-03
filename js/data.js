@@ -1,7 +1,7 @@
-const data = [
+export let data = [
     {
       titulo: "Cambia de pasta termica",
-      img: "https://img.freepik.com/vector-premium/concepto-servicio-reparacion-computadoras-ilustracion-vectorial_357257-792.jpg?w=2000",
+      img: "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/01/pasta-termica-procesador-2588109.jpg?tf=3840x",
       descripcion: "Como cambiar la pasta termica del procesador",
       precio: "$25",
       herramienta: [
@@ -104,7 +104,7 @@ const data = [
     },
     {
       titulo: "Reparación de problemas de conexión WiFi",
-      img: "",
+      img: "https://fundacioncarlosslim.org/wp-content/uploads/2021/09/tecnico-reparacion-laptops-2.jpg",
       descripcion: "Solución de problemas relacionados con la conectividad WiFi.",
       precio: "$50",
       herramienta: [
