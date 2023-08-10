@@ -135,3 +135,11 @@ export let data = [
       ],
     },
   ];
+
+  // Agregar propiedad "ID" a cada objeto
+  data = data.map((obj, index) => {
+  return {
+    ...obj,
+    ID: index + 1,
+  };
+});
