@@ -4,6 +4,9 @@ const main_Dom = document.querySelector("#main");
 const caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
 
 function caja_descripcion(product) {
+    const hazloTuMismoButton = product.estado === "Disponible" ?
+        '<button class="hazlo-tu-mismo">Hágalo usted mismo</button>' : '';
+
     return `
     <div class="descripcion-container">
         <div class="product-image">
@@ -13,10 +16,8 @@ function caja_descripcion(product) {
             <h2>${product.titulo}</h2>
             <p class="product-description">${product.descripcion}</p>
             <p class="product-price">Precio: ${product.precio}</p>
-            <h3>Herramientas necesarias:</h3>
-            <ul class="product-tools">
-                ${product.herramienta.map(tool => `<li>${tool}</li>`).join('')}
-            </ul>
+            ${hazloTuMismoButton}
+            <button class="comprar">¡Comprar Ahora!</button>
         </div>
     </div>
     `;
@@ -30,6 +31,14 @@ function ver_descripcion(event) {
 
     main_Dom.style.display = "none"; // Ocultar el contenido principal al mostrar la descripción
     caja_descripcion_DOM.style.display = "block"; // Mostrar la caja de descripción
+
+    // Si el producto no está disponible, ocultar el botón "Hazlo tú mismo"
+    if (selectedProduct.estado !== "Disponible") {
+        const hazloTuMismoButton = caja_descripcion_DOM.querySelector(".hazlo-tu-mismo");
+        if (hazloTuMismoButton) {
+            hazloTuMismoButton.style.display = "none";
+        }
+    }
 }
 
 data.forEach(cada_item => {

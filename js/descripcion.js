@@ -13,10 +13,6 @@ function mostrarDescripcion(productID) {
                 <h2>${product.titulo}</h2>
                 <p class="product-description">${product.descripcion}</p>
                 <p class="product-price">Precio: ${product.precio}</p>
-                <h3>Herramientas necesarias:</h3>
-                <ul class="product-tools">
-                    ${product.herramienta.map(tool => `<li>${tool}</li>`).join('')}
-                </ul>
             </div>
         </div>
     `;

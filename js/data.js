@@ -2,8 +2,9 @@ export let data = [
     {
       titulo: "Cambia de pasta termica",
       img: "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/01/pasta-termica-procesador-2588109.jpg?tf=3840x",
-      descripcion: "Como cambiar la pasta termica del procesador",
+      descripcion: "Mejora la transferencia de calor en tu dispositivo electrónico, previene el sobrecalentamiento y prolonga su vida útil. La pasta térmica optimiza la conducción térmica entre componentes clave.",
       precio: "$25",
+      estado: "Disponible",
       herramienta: [
         "Destornillador de estrella",
         "Paño de microfibra",
@@ -22,8 +23,9 @@ export let data = [
     {
       titulo: "Reparación de pantalla rota",
       img: "https://www.solutekcolombia.com/images/cambio_pantalla_portatil_bogota.jpg",
-      descripcion: "Reparación de pantallas rotas para laptops y computadoras.",
+      descripcion: "Soluciona pantallas rotas en laptops y computadoras, restaurando la funcionalidad visual. Se desmonta, retira la pantalla dañada e instala una de reemplazo.",
       precio: "$100",
+      estado: "Disponible",
       herramienta: [
         "Destornilladores",
         "Pantalla de reemplazo",
@@ -39,8 +41,9 @@ export let data = [
     {
       titulo: "Actualización de hardware",
       img: "https://mipanel.creattoweb.com/archivos/qfixinformatica.com/contenidos/s4.png",
-      descripcion: "Mejora el rendimiento de tu equipo con actualizaciones de hardware.",
+      descripcion: "Aumenta el rendimiento de tu equipo con mejoras de hardware, como RAM, SSD o tarjetas gráficas. Actualizaciones personalizadas para satisfacer tus necesidades.",
       precio: "Desde $50",
+      estado: "Disponible",
       herramienta: [
         "Memoria RAM",
         "Unidad de estado sólido (SSD)",
@@ -56,8 +59,9 @@ export let data = [
     {
       titulo: "Reparación de teclado",
       img: "https://c8.alamy.com/compes/2g7a4nf/un-tecnico-profesional-en-electronica-de-computadoras-elimina-las-teclas-de-un-teclado-inalambrico-de-computadora-viejo-y-sucio-los-utiles-de-reparacion-y-limpieza-2g7a4nf.jpg",
-      descripcion: "Reparación o reemplazo de teclados defectuosos o dañados.",
+      descripcion: "Corrige teclados defectuosos o dañados. Reemplaza el teclado antiguo, mejorando la experiencia de escritura y funcionalidad.",
       precio: "$60",
+      estado: "Disponible",
       herramienta: [
         "Teclado de reemplazo",
         "Destornilladores",
@@ -73,8 +77,9 @@ export let data = [
     {
       titulo: "Eliminación de virus y malware",
       img: "https://intratecno.com/wp-content/uploads/Antivirus-1200x1200-1.webp",
-      descripcion: "Limpieza y eliminación de virus y malware para mejorar el rendimiento.",
+      descripcion: "Limpia y elimina virus y malware para optimizar el rendimiento. Escanea, elimina amenazas y configura la seguridad para mantener tu sistema protegido.",
       precio: "$80",
+      estado: "Disponible",
       herramienta: [
         "Software antivirus",
         "Software de eliminación de malware",
@@ -89,8 +94,9 @@ export let data = [
     {
       titulo: "Reparación de problemas de carga",
       img: "https://repararelpc.es/wp-content/uploads/2020/10/reparar-laptop-2-scaled.jpg",
-      descripcion: "Solución de problemas relacionados con la carga de la batería.",
+      descripcion: "Soluciona problemas de carga y batería en tu dispositivo. Identifica y reemplaza componentes defectuosos para asegurar una carga confiable.",
       precio: "$70",
+      estado: "No disponible",
       herramienta: [
         "Destornilladores",
         "Cargador de reemplazo",
@@ -105,8 +111,9 @@ export let data = [
     {
       titulo: "Reparación de problemas de conexión WiFi",
       img: "https://fundacioncarlosslim.org/wp-content/uploads/2021/09/tecnico-reparacion-laptops-2.jpg",
-      descripcion: "Solución de problemas relacionados con la conectividad WiFi.",
+      descripcion: "Resuelve problemas de conectividad WiFi. Diagnostica, actualiza controladores y reemplaza antenas WiFi si es necesario.",
       precio: "$50",
+      estado: "Disponible",
       herramienta: [
         "Destornilladores",
         "Antenas WiFi de reemplazo",
@@ -121,8 +128,9 @@ export let data = [
     {
       titulo: "Limpieza interna y mantenimiento",
       img: "https://www.muycomputer.com/wp-content/uploads/2021/01/Mantenimiento_de_portatiles_5.jpg",
-      descripcion: "Limpieza interna del polvo y mantenimiento para mejorar el rendimiento.",
+      descripcion: "Realiza una limpieza interna y mantenimiento para mejorar el rendimiento. Elimina el polvo y aplica alcohol isopropílico en conectores para un funcionamiento óptimo.",
       precio: "$40",
+      estado: "Disponible",
       herramienta: [
         "Aire comprimido",
         "Alcohol isopropílico",

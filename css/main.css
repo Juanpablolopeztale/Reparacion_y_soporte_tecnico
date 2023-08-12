@@ -42,6 +42,42 @@
     font-size: 1.5rem;
     align-self: flex-end;
 }
+/* Agrega estilos CSS para el botón "Hágalo usted mismo" */
+.hazlo-tu-mismo {
+    position: relative;
+    left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hazlo-tu-mismo:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Diseño para el boton de comprar*/
+.comprar {
+    position: relative;
+    left: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.comprar:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 1000px) { 
     #main {
