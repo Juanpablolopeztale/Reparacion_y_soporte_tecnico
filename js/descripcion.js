@@ -17,5 +17,3 @@ function mostrarDescripcion(productID) {
         </div>
     `;
 }
-
-
